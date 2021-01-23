@@ -28,4 +28,6 @@ Fonts:
 * Iosevka Etoile -- polybar
 * Iosevka Nerd Font -- polybar
 * Monospace Bold -- terminator
+* Font Awesome 5 -- polybar
+* Material Icons -- polybar
 
