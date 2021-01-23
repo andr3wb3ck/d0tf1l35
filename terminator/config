@@ -1,0 +1,71 @@
+[global_config]
+  borderless = True
+  extra_styling = False
+  tab_position = bottom
+  scroll_tabbar = True
+  title_transmit_fg_color = "#222222"
+  title_transmit_bg_color = "#be5b55"
+  title_receive_bg_color = "#73d216"
+  title_inactive_fg_color = "#dfdfdf"
+  title_inactive_bg_color = "#2e3436"
+  inactive_color_offset = 1.0
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, MavenPluginURLHandler, LaunchpadBugURLHandler
+  suppress_multiple_term_dialog = True
+  always_split_with_profile = True
+  title_use_system_font = False
+  title_font = Sans 10
+[keybindings]
+  new_tab = <Primary><Shift>n
+  cycle_next = <Primary>l
+  cycle_prev = <Primary>h
+  go_next = <Primary>l
+  go_prev = <Primary>h
+  split_horiz = <Alt>m
+  split_vert = <Alt>i
+  close_term = <Primary>w
+  page_up = <Primary><Shift>k
+  page_down = <Primary><Shift>k
+  page_up_half = <Primary>k
+  page_down_half = <Primary>j
+  next_tab = <Primary>n
+  prev_tab = <Primary>j
+  full_screen = <Alt>f
+  new_window = <Primary><Shift>n
+  broadcast_off = <Primary>o
+  layout_launcher = <Primary><Shift>y
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_darkness = 0.67
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    font = Roboto Mono Medium for Powerline Bold 11
+    scrollback_lines = 1005
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000ee:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
+    use_custom_command = True
+    use_system_font = False
+  [[One dark]]
+    icon_bell = False
+    background_color = "#1e2127"
+    background_darkness = 0.84
+    background_type = transparent
+    cursor_color = "#676c76"
+    font = Monospace Bold 12
+    foreground_color = "#b4b6ba"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 100000
+    exit_action = hold
+    palette = "#000000:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#abb2bf:#5c6370:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#fffefe"
+    custom_command = screenfetch
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = One dark
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
