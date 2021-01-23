@@ -12,6 +12,7 @@ Soft:
 * `feh` -- wallpaper setter
 * `redshift` -- bluelight filter @ night
 * `pactl` -- audio volume
+* `sp` -- spotify playback control
 
 Extra soft:
 * `ranger`
