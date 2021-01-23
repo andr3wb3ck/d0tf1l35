@@ -12,6 +12,7 @@ Soft:
 * `feh` -- wallpaper setter
 * `redshift` -- bluelight filter @ night
 * `pactl` -- audio volume
+* `sp` -- spotify playback control
 
 Extra soft:
 * `ranger`
@@ -27,4 +28,6 @@ Fonts:
 * Iosevka Etoile -- polybar
 * Iosevka Nerd Font -- polybar
 * Monospace Bold -- terminator
+* Font Awesome 5 -- polybar
+* Material Icons -- polybar
 

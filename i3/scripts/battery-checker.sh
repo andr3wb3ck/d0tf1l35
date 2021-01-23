@@ -32,7 +32,7 @@ main_cycle () {
               fi
           fi
           
-        sleep 300
+        sleep 100
       done
 }
 
