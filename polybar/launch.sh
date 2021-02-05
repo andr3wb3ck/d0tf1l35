@@ -6,5 +6,6 @@ while pgrep -u $UID -x polybar >/dev/null; do
         sleep 1;
 done
 
-polybar example
+polybar --reload bottom &
+polybar --reload example
 

@@ -23,5 +23,13 @@ alias internal_mon='gsettings set org.gnome.desktop.interface text-scaling-facto
 # [Set keyboard layout change to capslock]
 alias keyboard='setxkbmap -option grp:switch,grp:caps_toggle,grp_led:caps us,ua'
 
+# [Open vpn aliases]
+alias vpn_on='sudo systemctl start openvpn-client@TunnelBearUnitedStates'
+alias vpn_off='sudo systemctl stop openvpn-client@TunnelBearUnitedStates'
+alias vpn_status='sudo systemctl status openvpn-client@TunnelBearUnitedStates'
+
 # [Ranger]
 alias rr='ranger'
+
+# [Search]
+alias ff='fzf'

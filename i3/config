@@ -60,6 +60,8 @@ bindsym $mod+greater exec "sp next"
 bindsym $mod+less exec "sp prev"
 bindsym $mod+slash exec "sp play"
 
+#== [toggle bottom statusbar]
+bindsym $mod+o exec polybar-msg cmd toggle
 
 #== [move workspace to diff monitor]
 bindsym $mod+Ctrl+greater move workspace to output right
