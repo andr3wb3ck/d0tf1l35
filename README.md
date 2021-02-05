@@ -31,3 +31,5 @@ Fonts:
 * Font Awesome 5 -- polybar
 * Material Icons -- polybar
 
+### Example
+![Screenshot](/res/Screenshot.png?raw=true "Screenshot")
